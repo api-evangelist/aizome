@@ -1,8 +1,27 @@
 aid: aizome
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aizome.png
 name: Aizome
-description: 'Aizome is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Aizome is an enterprise AI agent security and governance platform that makes autonomous
+  AI agents accountable through identity-led access control and intent validation. Its platform follows
+  a three-step model: Discover (map every AI agent in the enterprise, including undocumented ones), Assess
+  Risk (score agents by data access, functionality, and behavior), and Control and Govern (enforce policy
+  through identity-led governance and intent interception before execution). Aizome inherits agent identity
+  from users scoped to specific tasks and integrates with existing enterprise identity systems such as
+  Okta, Microsoft Entra, and SailPoint rather than replacing them. It targets enterprise workflow automation
+  use cases including billing, talent reviews, contract monitoring, and customer service. Aizome is backed
+  by Norwest Venture Partners. No public API, developer portal, or OpenAPI specification is published at
+  this time.'
 url: https://raw.githubusercontent.com/api-evangelist/aizome/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,7 +34,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Unknown
+- Security
+- AI Agents
+- Identity and Access
+- Governance
+- Compliance
+- Agent Security
+- Enterprise AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +50,18 @@ maintainers:
 common:
 - type: Website
   url: https://aizome.ai
+- type: Blog
+  url: https://aizome.ai/resources
+- type: PrivacyPolicy
+  url: https://aizome.ai/privacy
+- type: TermsOfService
+  url: https://aizome.ai/terms
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aizome.ai/
+- type: DomainSecurity
+  url: security/aizome-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
