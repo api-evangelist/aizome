@@ -1,0 +1,29 @@
+# Front Door AI Index — aizome — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: aizome
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: aizome.ai
+  final_host: www.aizome.ai
+  ownership: own
+  owner: aizome
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 44
+  host_score: 44
+  density: 39.29
+  words: 1120
+  tiers:
+    agentic: 17
+    core: 25
+    model: 2
+  ambiguous: 32
+  top_terms:
+    agent: 32
+    AI: 25
+    AI agent: 16
+    Claude: 2
+    agentic: 1
